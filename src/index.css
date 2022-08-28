@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 body {
-  background-color: #e4e4e4;
+  font-family: 'Open Sans', sans-serif;
 }
 
 div {
   box-sizing: border-box;
+}
+
+.title {
+  position: absolute;
+  font-size: 3rem;
+  top: -1rem;
+  left: 2rem;
 }
 
 .quiz {
@@ -13,7 +22,7 @@ div {
 }
 
 .question {
-  background-color: #0094da;
+  background-color: black;
   color: white;
   padding: 10px;
   min-height: 60px;
@@ -45,7 +54,7 @@ div {
 .answer {
   width: 48%;
   background: #fff;
-  border: 2px solid #0094da;
+  border: 2px solid black;
   min-height: 70px;
   cursor: pointer;
   margin-bottom: 30px;
@@ -61,7 +70,7 @@ div {
 
 .answer-letter {
   font-size: 30px;
-  background-color: #0084da;
+  background-color: black;
   color: #fff;
   width: 70px;
   display: flex;
@@ -95,7 +104,7 @@ div {
 .next-button {
   margin: 0 auto;
   color: #fff;
-  background: #0b0e21;
+  background: black;
   width: 300px;
   font-size: 18px;
   font-weight: 600;

@@ -7,6 +7,7 @@ const Quiz = () => {
 
   return (
     <div className="quiz">
+        <h1 className="title">QUIZ APP</h1>
       {quizState.showResults && (
         <div className="results">
           <div className="congratulations">Congratulations!</div>
